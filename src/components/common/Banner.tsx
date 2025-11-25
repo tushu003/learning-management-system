@@ -8,7 +8,7 @@ export default function Banner() {
       <Image src={bannerImage}
       alt='banner'
       width={1480}
-      height={371} />
+      height={571} />
     </div>
   )
 }
