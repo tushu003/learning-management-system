@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import logo from "../../../public/assets/logo/logo.png"
 
 // Place a logo at /public/logo.png or change the src below.
 export default function PublicNavbar(): React.ReactElement {
@@ -16,7 +17,7 @@ export default function PublicNavbar(): React.ReactElement {
             <Link href="/" className="flex items-center gap-3">
               <div className="relative sm:w-40 sm:h-10">
                 {/* update the src to your logo file in /public */}
-                <Image src="/logo.png" alt="Evolve Tutoring" fill style={{ objectFit: 'contain' }} />
+                <Image src={logo} alt="Evolve Tutoring" fill style={{ objectFit: 'contain' }} />
               </div>
             </Link>
           </div>

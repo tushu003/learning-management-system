@@ -4,7 +4,7 @@ import bannerImage from '../../../public/assets/hero/banner.png';
 
 export default function Banner() {
   return (
-    <div>
+    <div className=''>
       <Image src={bannerImage}
       alt='banner'
       width={1480}
