@@ -10,7 +10,7 @@ const Badge: React.FC<{ children: React.ReactNode }> = ({ children }) => (
 
 const CoursesCard: React.FC<{ course: typeof courses[number] }> = ({ course }) => {
   return (
-    <article className="bg-white max-w-5xl mx-auto rounded-xl shadow-sm overflow-hidden ring-1 ring-gray-100">
+    <article className="bg-white max-w-5xl pb-6 mx-auto rounded-xl shadow-sm overflow-hidden ring-1 ring-gray-100">
       {/* Top image: fills the card width and has a fixed height */}
       <div className="relative w-full h-44 md:h-48 lg:h-56 bg-gray-100">
         <Image
@@ -18,7 +18,7 @@ const CoursesCard: React.FC<{ course: typeof courses[number] }> = ({ course }) =
           alt={course.title}
           fill
           className="object-cover"
-          sizes="(max-width: 568px) 100vw, 33vw"
+          sizes="(max-width: 368px) 100vw, 33vw"
         />
         {/* small top-right decorative badge (optional) */}
         <div className="absolute top-3 right-3 bg-white/80 backdrop-blur rounded-full p-2 shadow-sm">
@@ -62,7 +62,7 @@ export default function HeroFeatures() {
           <CoursesCard key={c.id} course={c} />
         ))}
       </div>
-      <button className="btn bg-gradient-to-r from-[#3B82F6] to-[#06B6D4] px-4 py-2 rounded-[16px] text-white lg:ml-99 mt-8">Explore All Subject →</button>
+      <button className="btn bg-gradient-to-r from-[#3B82F6] to-[#06B6D4] px-4 py-2 rounded-[16px] text-white lg:ml-99 mt-8 mb-8">Explore All Subject →</button>
     </section>
   );
 }
