@@ -45,19 +45,19 @@ const FeatureCard: React.FC<{ feature: Feature }> = ({ feature }) => {
 
 export default function HeroFeatures() {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-20">
+    <section className="max-w-6xl mx-auto px-6 py-16">
       <div className="text-center max-w-3xl mx-auto">
         <Badge>Why Choose Evolve</Badge>
-        <h1 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900">
+        <h1 className="mt-3 text-xl sm:text-4xl lg:text-3xl font-extrabold text-[#1E293B]">
           The Future of
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#9333EA] to-[#DB2777]">
             {" "}
             Personalized Learning
           </span>
         </h1>
         <p className="mt-3 text-sm text-slate-500">
           We’re not just another tutoring platform. We’re revolutionizing
-          education with cutting-edge technology and human expertise.
+          education with <br /> cutting-edge technology and human expertise.
         </p>
       </div>
 
