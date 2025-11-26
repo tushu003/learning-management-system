@@ -10,7 +10,7 @@ const Badge: React.FC<{ children: React.ReactNode }> = ({ children }) => (
 
 const FeatureCard: React.FC<{ feature: Feature }> = ({ feature }) => {
   return (
-    <article className="bg-white max-w-5xl mx-auto rounded-2xl shadow-sm overflow-hidden ring-1 ring-gray-100">
+    <article className="bg-white max-w-5xl mx-auto rounded-xl shadow-sm overflow-hidden ring-1 ring-gray-100">
       {/* Top image: fills the card width and has a fixed height */}
       <div className="relative w-full h-44 md:h-48 lg:h-56 bg-gray-100">
         <Image
@@ -45,7 +45,7 @@ const FeatureCard: React.FC<{ feature: Feature }> = ({ feature }) => {
 
 export default function HeroFeatures() {
   return (
-    <section className="max-w-6x mx-auto py-16">
+    <section className="max-w-6xl mx-auto lg:px-19 py-16">
       <div className="text-center max-w-3xl mx-auto">
         <Badge>Why Choose Evolve</Badge>
         <h1 className="mt-3 text-xl sm:text-4xl lg:text-3xl font-extrabold text-[#1E293B]">
