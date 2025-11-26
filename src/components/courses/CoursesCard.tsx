@@ -62,6 +62,7 @@ export default function HeroFeatures() {
           <CoursesCard key={c.id} course={c} />
         ))}
       </div>
+      <button className="btn bg-gradient-to-r from-[#3B82F6] to-[#06B6D4] px-4 py-2 rounded-[16px] text-white lg:ml-99 mt-8">Explore All Subject →</button>
     </section>
   );
 }
