@@ -1,5 +1,5 @@
 
-export type Courses = {
+export type Course = {
   id: string;
   title: string;
   subtitle?: string;
@@ -8,7 +8,7 @@ export type Courses = {
   accent?: string; // optional accent color (Tailwind class)
 };
 
-export const coursesres: Courses[] = [
+export const courses: Course[] = [
   {
     id: "ai-mathematics",
     title: "Mathematics",
