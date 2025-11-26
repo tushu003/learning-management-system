@@ -28,12 +28,12 @@ const FeatureCard: React.FC<{ feature: Feature }> = ({ feature }) => {
 
       {/* Text block below the image */}
       <div className="p-5">
-        <h3 className="text-lg font-semibold text-slate-900">
+        <h3 className="text-[24px] font-[700] text-[#1E293B]">
           {feature.title}
         </h3>
-        <p className="mt-2 text-sm text-slate-500">{feature.description}</p>
+        <p className="mt-2 text-sm text-[#4B5563]">{feature.description}</p>
         <a
-          className="inline-block mt-4 text-sm font-medium text-sky-600 hover:underline"
+          className="inline-block mt-4 text-sm font-medium text-[#003466] hover:underline"
           href="#"
         >
           Learn more →
@@ -45,7 +45,7 @@ const FeatureCard: React.FC<{ feature: Feature }> = ({ feature }) => {
 
 export default function HeroFeatures() {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-16">
+    <section className="max-w-6x mx-auto py-16">
       <div className="text-center max-w-3xl mx-auto">
         <Badge>Why Choose Evolve</Badge>
         <h1 className="mt-3 text-xl sm:text-4xl lg:text-3xl font-extrabold text-[#1E293B]">
