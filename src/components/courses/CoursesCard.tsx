@@ -28,7 +28,7 @@ const CoursesCard: React.FC<{ course: typeof courses[number] }> = ({ course }) =
 
       {/* Text block below the image */}
       <div className="p-5">
-        <h3 className="text-[24px] font-[700] text-[#1E293B]">
+        <h3 className="text-[20px] font-[700] text-[#1E293B]">
           {course.title}
         </h3>
         <p className="mt-2 text-sm text-[#4B5563]">{course.description}</p>
@@ -36,7 +36,7 @@ const CoursesCard: React.FC<{ course: typeof courses[number] }> = ({ course }) =
           className="inline-block mt-4 text-sm font-medium text-[#003466] hover:underline"
           href="#"
         >
-          Explore more →
+          Explore Tutors →
         </a>
       </div>
     </article>
