@@ -14,7 +14,7 @@ export const features: Feature[] = [
     subtitle: undefined,
     description:
       "Our intelligent system pairs you with the perfect tutor based on your learning style and goals.",
-    image: "/feature/Container.png",
+    image: "/feature/team1.png",
     accent: "from-purple-400 to-indigo-500",
   },
   {

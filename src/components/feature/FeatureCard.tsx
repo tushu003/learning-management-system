@@ -10,7 +10,7 @@ const Badge: React.FC<{ children: React.ReactNode }> = ({ children }) => (
 
 const FeatureCard: React.FC<{ feature: Feature }> = ({ feature }) => {
   return (
-    <article className="bg-white rounded-2xl shadow-sm overflow-hidden ring-1 ring-gray-100">
+    <article className="bg-white max-w-5xl mx-auto rounded-2xl shadow-sm overflow-hidden ring-1 ring-gray-100">
       {/* Top image: fills the card width and has a fixed height */}
       <div className="relative w-full h-44 md:h-48 lg:h-56 bg-gray-100">
         <Image
@@ -18,7 +18,7 @@ const FeatureCard: React.FC<{ feature: Feature }> = ({ feature }) => {
           alt={feature.title}
           fill
           className="object-cover"
-          sizes="(max-width: 768px) 100vw, 33vw"
+          sizes="(max-width: 568px) 100vw, 33vw"
         />
         {/* small top-right decorative badge (optional) */}
         <div className="absolute top-3 right-3 bg-white/80 backdrop-blur rounded-full p-2 shadow-sm">
