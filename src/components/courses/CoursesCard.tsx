@@ -3,7 +3,7 @@ import Image from "next/image";
 import { courses } from "../../features/student/mock/courses";
 
 const Badge: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <span className="inline-flex items-center px-3 py-1 rounded-full bg-purple-50 text-purple-600 text-xs font-medium">
+  <span className="inline-flex items-center px-3 py-1 rounded-full bg-gradient-to-l from-[#CFFAFE] to-[#DBEAFE] text-[#1E40AF] text-xs font-medium">
     {children}
   </span>
 );
@@ -45,20 +45,16 @@ const CoursesCard: React.FC<{ course: typeof courses[number] }> = ({ course }) =
 
 export default function HeroFeatures() {
   return (
-    <section className="max-w-6xl mx-auto lg:px-19 py-16">
+    <section className="max-w-6xl mx-auto lg:px-19">
       <div className="text-center max-w-3xl mx-auto">
-        <Badge>Why Choose Evolve</Badge>
+        <Badge>Subject Mastery</Badge>
         <h1 className="mt-3 text-xl sm:text-4xl lg:text-3xl font-extrabold text-[#1E293B]">
-          The Future of
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#9333EA] to-[#DB2777]">
+          Masters Any Subject
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#2563EB] to-[#0891B2]">
             {" "}
-            Personalized Learning
+            With Expert Guidence
           </span>
         </h1>
-        <p className="mt-3 text-sm text-slate-500">
-          We’re not just another tutoring platform. We’re revolutionizing
-          education with <br /> cutting-edge technology and human expertise.
-        </p>
       </div>
 
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
