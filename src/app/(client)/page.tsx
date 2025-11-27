@@ -5,6 +5,7 @@ import Courses from "./courses/page";
 import CoursesCard from "@/components/courses/CoursesCard";
 import LearnAnywhere from "@/components/LearnAnyWhere";
 import TeachEvolve from "@/components/TeachEvolve";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
     <CoursesCard />
     <LearnAnywhere />
     <TeachEvolve />
+    <Testimonials />
     Hello world
   </div>
   );
