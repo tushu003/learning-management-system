@@ -16,9 +16,11 @@ const CoursesCard: React.FC<{ course: typeof courses[number] }> = ({ course }) =
         <Image
           src={course.image}
           alt={course.title}
-          fill
+          width={382}
+          height={162}
+        
           className="object-cover"
-          sizes="(max-width: 368px) 100vw, 33vw"
+          
         />
         {/* small top-right decorative badge (optional) */}
         <div className="absolute top-3 right-3 bg-white/80 backdrop-blur rounded-full p-2 shadow-sm">
