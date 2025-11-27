@@ -50,7 +50,7 @@ export default function HeroFeatures() {
         <Badge>Subject Mastery</Badge>
         <h1 className="mt-3 text-xl sm:text-4xl lg:text-3xl font-extrabold text-[#1E293B]">
           Masters Any Subject
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#2563EB] to-[#0891B2]">
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#2563EB] to-[#159fc2]">
             {" "}
             With Expert Guidence
           </span>
