@@ -22,8 +22,6 @@ const CoursesCard: React.FC<{ course: typeof courses[number] }> = ({ course }) =
           className="object-cover"
           
         />
-        <div className="absolute top-3 right-3 bg-white/80 backdrop-blur rounded-full p-2 shadow-sm">
-        </div>
       </div>
 
       {/* Text block below the image */}

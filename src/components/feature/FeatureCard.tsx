@@ -20,10 +20,6 @@ const FeatureCard: React.FC<{ feature: Feature }> = ({ feature }) => {
           className="object-cover"
           sizes="(max-width: 568px) 100vw, 33vw"
         />
-       
-        <div className="absolute top-3 right-3 bg-white/80 backdrop-blur rounded-full p-2 shadow-sm">
-         
-        </div>
       </div>
 
       {/* Text block below the image */}
