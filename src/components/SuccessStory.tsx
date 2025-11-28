@@ -14,8 +14,8 @@ export default function SuccessStory() {
         journey. Your perfect tutor is just one click away.
       </p>
       <div className="flex justify-center gap-4 mt-6">
-        <button className="btn bg-white text-[#003466] px-3 py-2 rounded-lg">Find Your tutor Now</button>
-        <button className="btn  bg-white/60 text-[#003466] px-3 py-2 rounded-lg">Become A Tutor</button>
+        <button className="btn bg-white text-[#003466] px-3 py-2 rounded-lg">Find Your tutor Now →</button>
+        <button className=" bg-white/20 text-[#003466] px-3 py-2 rounded-lg">Become A Tutor</button>
       </div>
     </div>
   );

@@ -18,7 +18,6 @@ export default function Home() {
     <TeachEvolve />
     <Testimonials />
     <SuccessStory />
-    Hello world
   </div>
   );
 }
